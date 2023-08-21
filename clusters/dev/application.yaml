@@ -11,7 +11,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: clusters/dev
-    repoURL: 'https://github.com/Bravesguy18/flux.git'
+    repoURL: 'https://github.com/Bravesguy18/flux'
     targetRevision: HEAD
   syncPolicy:
     automated:
