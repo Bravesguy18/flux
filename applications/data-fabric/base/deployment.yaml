@@ -45,3 +45,19 @@ spec:
     imagePullPolicy: IfNotPresent
     name: alpine
   restartPolicy: Always
+  ---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: data-fabric-04
+  namespace: default
+spec:
+  containers:
+  - image: alpine:3.2
+    command:
+      - /bin/sh
+      - "-c"
+      - "sleep 60m"
+    imagePullPolicy: IfNotPresent
+    name: alpine
+  restartPolicy: Always
