@@ -1,7 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- ../../infrastructure/podinfo/overlays/dev
 - ../../applications/data-fabric/overlays/dev
 - ../../applications/level-2/overlays/dev
 - ../../infrastructure/web-service/overlays/dev

@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: dev-cluster
+  namespace: default
+spec:
+  destination:
+    namespace: default
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: clusters/dev
+    repoURL: 'https://github.com/Bravesguy18/flux.git'
+    targetRevision: HEAD
+syncPolicy:
+  syncOptions:
+  - CreateNamespace=true
+  automated:
+    selfHeal: true
+    prune: true
