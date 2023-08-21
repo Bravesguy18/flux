@@ -20,7 +20,11 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
+<<<<<<< HEAD
   path: ./clusters/dev
+=======
+  path: ./clusters/home
+>>>>>>> c91f43d (move stuff)
   prune: true
   sourceRef:
     kind: GitRepository
