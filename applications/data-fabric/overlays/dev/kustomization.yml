@@ -5,6 +5,3 @@ resources:
 commonLabels:
   variant: dev
   app: data-fabric
-#patchesStrategicMerge:
-#- secret.yaml
-#- configmap.yaml
