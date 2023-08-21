@@ -1,13 +1,9 @@
 resources:
 - ../../base
-#- namespace.yaml
-
 namespace: default
-
 commonLabels:
   variant: dev
   app: level-2
-
 #patchesStrategicMerge:
 #- secret.yaml
 #- configmap.yaml
