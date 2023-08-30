@@ -5,7 +5,7 @@ metadata:
   name: dev-data-fabric
   namespace: argocd
 spec:
-  project: default
+  project: product-generation
   destination:
     namespace: default
     server: 'https://kubernetes.default.svc'
