@@ -1,0 +1,5 @@
+resources:
+- ../../base
+commonLabels:
+  variant: dev
+  app: manager
