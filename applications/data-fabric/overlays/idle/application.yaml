@@ -5,7 +5,7 @@ metadata:
   name: data-fabric
   namespace: argocd
   labels:
-    level=idle
+    build: idle
 spec:
   project: product-generation
   destination:

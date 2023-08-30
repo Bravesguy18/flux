@@ -4,6 +4,8 @@ kind: Application
 metadata:
   name: data-fabric
   namespace: argocd
+  labels:
+    build: dev
 spec:
   project: product-generation
   destination:
