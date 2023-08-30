@@ -3,4 +3,3 @@ kind: Kustomization
 resources:
 - ../../applications/data-fabric/overlays/dev
 - ../../applications/level-2/overlays/dev
-- ../../infrastructure/web-service/overlays/dev
