@@ -4,6 +4,8 @@ kind: Application
 metadata:
   name: data-fabric
   namespace: argocd
+  labels:
+    level=idle
 spec:
   project: product-generation
   destination:
