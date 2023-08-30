@@ -4,8 +4,10 @@ kind: Application
 metadata:
   name: dev-cluster
   namespace: argocd
+  labels:
+    build: dev
 spec:
-  project: default
+  project: product-generation
   destination:
     namespace: default
     server: 'https://kubernetes.default.svc'
