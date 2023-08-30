@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: dev-cluster
-  namespace: default
+  namespace: argocd
   labels:
     build: dev
 spec:
