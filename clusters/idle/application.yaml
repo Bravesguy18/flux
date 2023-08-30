@@ -5,14 +5,14 @@ metadata:
   name: pg-cluster
   namespace: argocd
   labels:
-    build: dev
+    build: idle
 spec:
   project: product-generation
   destination:
     namespace: default
     server: 'https://kubernetes.default.svc'
   source:
-    path: clusters/dev
+    path: clusters/idle
     repoURL: 'https://github.com/Bravesguy18/flux.git'
     targetRevision: HEAD
   syncPolicy:
