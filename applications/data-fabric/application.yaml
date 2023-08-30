@@ -10,7 +10,7 @@ spec:
     namespace: default
     server: 'https://kubernetes.default.svc'
   source:
-    path: applications/overlay/dev
+    path: applications/overlays/dev
     repoURL: 'https://github.com/Bravesguy18/flux.git'
     targetRevision: HEAD
   syncPolicy:
