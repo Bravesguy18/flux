@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dev-data-fabric
+  name: dev-level-2
   namespace: argocd
 spec:
   project: default
