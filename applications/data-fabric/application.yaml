@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dev-cluster
+  name: dev-data-fabric
   namespace: argocd
 spec:
   project: default
@@ -10,7 +10,7 @@ spec:
     namespace: default
     server: 'https://kubernetes.default.svc'
   source:
-    path: applications/overlays/dev
+    path: applications/data-fabric/overlays/dev
     repoURL: 'https://github.com/Bravesguy18/flux.git'
     targetRevision: HEAD
   syncPolicy:
